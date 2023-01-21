@@ -1,3 +1,5 @@
+# react-native-select-week-day
+This react native package returns index of clicked week day bubble. For example if you click on 'sun' it will return '0' and vice versa. you can use this package for week day picker in your code.
 ## Installation
 Native Cli: npm install react-native-select-week-day
 
