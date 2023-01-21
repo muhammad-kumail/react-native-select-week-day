@@ -16,3 +16,13 @@ Expo: expo install react-native-select-week-day
     onChange={(day)=>alert(day)}
 />
 ```
+## Properties
+|Props|Type|Default|Description|
+|---|---|---|---|
+|selectableDays|String Array|['Sun','Mon','Tue','Wed','Thu','Fri','Sat']|Make sure pass only three character string element in an array, otherwise it will not work.|
+|containerStyle|Object|null|
+|bubbleStyle|Object|{justifyContent: 'center', alignItems: 'center', borderRadius:75, padding: 10, margin: 5,backgroundColor: 'gray'}|
+|bubbleTextStyle|Object|{color: 'white'}|
+|bubblesInitialColor|String|'blue'|
+|bubblesSelectedColor|String|'red'|
+|onChange|Function|null|
