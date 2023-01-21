@@ -1,0 +1,26 @@
+{
+  "name": "react-native-select-week-day",
+  "version": "0.0.1",
+  "description": "This react native package returns index of clicked week day bubble. For example you click on 'sun' it will return '0'. you can use this package for week day picker in your code.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muhammad-kumail/react-native-select-week-day.git"
+  },
+  "keywords": [
+    "react native week day selector",
+    "react native week select",
+    "react native select week day",
+    "react-native-select-week-day",
+    "select bubbles"
+  ],
+  "author": "Kumail",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/muhammad-kumail/react-native-select-week-day/issues"
+  },
+  "homepage": "https://github.com/muhammad-kumail/react-native-select-week-day#readme"
+}
