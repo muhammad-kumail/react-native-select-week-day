@@ -25,4 +25,4 @@ Expo: expo install react-native-select-week-day
 |bubbleTextStyle|Object|{color: 'white'}|
 |bubblesInitialColor|String|'blue'|
 |bubblesSelectedColor|String|'red'|
-|onChange|Function|null|
+|onChange|Function|null|It will return index of clicked bubble
