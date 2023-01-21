@@ -9,14 +9,19 @@ Expo: expo install react-native-select-week-day
 
 ## Sample code
 ```
-<SelectWeekDay
-    selectableDays={['sun','mon','sat','thu']}
-    containerStyle={{justifyContent: 'center', alignItems: 'center',marginVertical: 60}}
-    bubblesInitialColor={'green'}
-    bubblesSelectedColor={'red'}
-    bubbleStyle={{width: 50,height: 50}}
-    onChange={(day)=>alert(day)}
-/>
+import {SelectWeekDay} from 'react-native-select-week-day'
+export default function App(){
+    return(
+        <SelectWeekDay
+            selectableDays={['sun','mon','sat','thu']}
+            containerStyle={{justifyContent: 'center', alignItems: 'center',marginVertical: 60}}
+            bubblesInitialColor={'green'}
+            bubblesSelectedColor={'red'}
+            bubbleStyle={{width: 50,height: 50}}
+            onChange={(day)=>alert(day)}
+        />
+    );
+}
 ```
 ## Properties
 |Props|Type|Default|Description|
