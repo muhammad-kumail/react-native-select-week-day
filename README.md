@@ -26,10 +26,11 @@ export default function App(){
 ## Properties
 |Props|Type|Default|Description|
 |---|---|---|---|
-|selectableDays|String Array|['Sun','Mon','Tue','Wed','Thu','Fri','Sat']|Make sure pass only three character string element in an array, otherwise it will not work.|
+|selectableDays|String Array|['Sun','Mon','Tue','Wed','Thu','Fri','Sat']|
 |containerStyle|Object|null|
 |bubbleStyle|Object|{justifyContent: 'center', alignItems: 'center', borderRadius:75, padding: 10, margin: 5,backgroundColor: 'gray'}|
 |bubbleTextStyle|Object|{color: 'white'}|
 |bubblesInitialColor|String|'blue'|
 |bubblesSelectedColor|String|'red'|
 |onChange|Function|null|It will return index of clicked bubble
+|size|Number|20|

@@ -1,2 +1,3 @@
 import SelectWeekDay from "./src/selectWeekDay";
-export {SelectWeekDay};
+import SelectMultipleWeekDays from "./src/selectMultipleWeekDays";
+export {SelectWeekDay, SelectMultipleWeekDays};
